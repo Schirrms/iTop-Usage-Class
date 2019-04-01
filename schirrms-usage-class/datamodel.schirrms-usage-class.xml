@@ -23,6 +23,8 @@
 				<reconciliation>
 					<attributes>
 						<attribute id="name"/>
+						<attribute id="org_id"/>
+						<attribute id="org_name"/>
 					</attributes>
 				</reconciliation>
 			</properties>
@@ -31,6 +33,16 @@
 					<sql>name</sql>
 					<default_value/>
 					<is_null_allowed>false</is_null_allowed>
+				</field>
+				<field id="org_id" xsi:type="AttributeExternalKey">
+					<sql>org_id</sql>
+					<target_class>Organization</target_class>
+					<is_null_allowed>false</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+				</field>
+				<field id="org_name" xsi:type="AttributeExternalField">
+					<extkey_attcode>org_id</extkey_attcode>
+					<target_attcode>name</target_attcode>
 				</field>
         <field id="functional_cis_list" xsi:type="AttributeLinkedSet">
           <linked_class>FunctionalCI</linked_class>
@@ -46,25 +58,34 @@
 			<presentation>
 				<details>
 					<items>
-						<item id="name">
+						<item id="org_id">
 							<rank>10</rank>
 						</item>
-						<item id="functional_cis_list">
+						<item id="name">
 							<rank>20</rank>
+						</item>
+						<item id="functional_cis_list">
+							<rank>99</rank>
 						</item>
 					</items>
 				</details>
 				<list>
 					<items>
-						<item id="name">
+						<item id="org_id">
 							<rank>10</rank>
+						</item>
+						<item id="name">
+							<rank>20</rank>
 						</item>
 					</items>
 				</list>
 				<search>
 					<items>
-						<item id="name">
+						<item id="org_id">
 							<rank>10</rank>
+						</item>
+						<item id="name">
+							<rank>20</rank>
 						</item>
 					</items>
 				</search>
