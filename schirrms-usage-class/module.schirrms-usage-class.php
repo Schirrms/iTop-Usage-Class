@@ -5,7 +5,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'schirrms-usage-class/1.0.1',
+	'schirrms-usage-class/1.0.2',
 	array(
 		// Identification
 		//
@@ -16,6 +16,7 @@ SetupWebPage::AddModule(
 		//
 		'dependencies' => array(
 			'itop-config-mgmt/2.5.0',
+			'itop-storage-mgmt/2.5.0',
 			'itop-virtualization-mgmt/2.5.0',
 		),
 		'mandatory' => false,
