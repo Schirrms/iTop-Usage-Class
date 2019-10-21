@@ -162,8 +162,65 @@
 				</details>
 			</presentation>
 		</class>
+		<class id="DBServer" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="col:col1">
+							<items>
+								<item id="fieldset:Server:baseinfo">
+									<items>
+										<item id="usage_id" _delta="define">
+											<rank>45</rank>
+										</item>
+									</items>
+								</item>
+							</items>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+		<class id="DatabaseSchema" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="col:col1">
+							<items>
+								<item id="fieldset:Server:baseinfo">
+									<items>
+										<item id="usage_id" _delta="define">
+											<rank>45</rank>
+										</item>
+									</items>
+								</item>
+						  </items>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
 	</classes>
 	<menus>
+		<menu id="ConfigManagementOverview" xsi:type="DashboardMenuNode" _delta="must_exist">
+			<rank>1</rank>
+			<parent>ConfigManagement</parent>
+			<definition>
+				<layout>DashboardLayoutOneCol</layout>
+				<title/>
+				<cells>
+					<cell id="4" _delta="must_exist"> <!-- Dashboard -> Miscellaneous -->
+						<rank>0</rank>
+						<dashlets>
+							<dashlet id="110" xsi:type="DashletBadge" _delta="define">
+								<rank>40</rank>
+								<class>Usage</class>
+							</dashlet>
+						</dashlets>
+					</cell>
+				</cells>
+			</definition>
+		</menu>
 	</menus>
 	<user_rights>
 		<groups>
