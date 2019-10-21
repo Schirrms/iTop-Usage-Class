@@ -166,16 +166,8 @@
 			<presentation>
 				<details>
 					<items>
-						<item id="col:col1">
-							<items>
-								<item id="fieldset:Server:baseinfo">
-									<items>
-										<item id="usage_id" _delta="define">
-											<rank>45</rank>
-										</item>
-									</items>
-								</item>
-							</items>
+						<item id="usage_id" _delta="define">
+							<rank>45</rank>
 						</item>
 					</items>
 				</details>
@@ -185,16 +177,8 @@
 			<presentation>
 				<details>
 					<items>
-						<item id="col:col1">
-							<items>
-								<item id="fieldset:Server:baseinfo">
-									<items>
-										<item id="usage_id" _delta="define">
-											<rank>45</rank>
-										</item>
-									</items>
-								</item>
-						  </items>
+						<item id="usage_id" _delta="define">
+							<rank>45</rank>
 						</item>
 					</items>
 				</details>
