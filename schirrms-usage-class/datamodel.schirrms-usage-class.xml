@@ -195,6 +195,17 @@
 				</details>
 			</presentation>
 		</class>
+		<class id="MiddlewareInstance" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="usage_id" _delta="define">
+							<rank>44</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
 		<class id="WebServer" _delta="must_exist">
 			<presentation>
 				<details>
@@ -211,18 +222,7 @@
 				<details>
 					<items>
 						<item id="usage_id" _delta="define">
-							<rank>24</rank>
-						</item>
-					</items>
-				</details>
-			</presentation>
-		</class>
-		<class id="MiddlewareInstance" _delta="must_exist">
-			<presentation>
-				<details>
-					<items>
-						<item id="usage_id" _delta="define">
-							<rank>24</rank>
+							<rank>54</rank>
 						</item>
 					</items>
 				</details>
