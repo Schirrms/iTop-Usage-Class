@@ -114,7 +114,7 @@
 								<item id="fieldset:Server:baseinfo">
 									<items>
 										<item id="usage_id" _delta="define">
-											<rank>45</rank>
+											<rank>44</rank>
 										</item>
 									</items>
 								</item>
@@ -133,7 +133,7 @@
 								<item id="fieldset:Server:baseinfo">
 									<items>
 										<item id="usage_id" _delta="define">
-											<rank>45</rank>
+											<rank>44</rank>
 										</item>
 									</items>
 								</item>
@@ -152,7 +152,7 @@
 								<item id="fieldset:Server:baseinfo">
 									<items>
 										<item id="usage_id" _delta="define">
-											<rank>45</rank>
+											<rank>44</rank>
 										</item>
 									</items>
 								</item>
@@ -167,7 +167,7 @@
 				<details>
 					<items>
 						<item id="usage_id" _delta="define">
-							<rank>45</rank>
+							<rank>44</rank>
 						</item>
 					</items>
 				</details>
@@ -178,7 +178,51 @@
 				<details>
 					<items>
 						<item id="usage_id" _delta="define">
-							<rank>45</rank>
+							<rank>44</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+		<class id="Middleware" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="usage_id" _delta="define">
+							<rank>44</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+		<class id="WebServer" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="usage_id" _delta="define">
+							<rank>44</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+		<class id="WebApplication" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="usage_id" _delta="define">
+							<rank>24</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+		<class id="MiddlewareInstance" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="usage_id" _delta="define">
+							<rank>24</rank>
 						</item>
 					</items>
 				</details>
