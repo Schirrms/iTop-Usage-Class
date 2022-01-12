@@ -44,6 +44,11 @@
 					<extkey_attcode>org_id</extkey_attcode>
 					<target_attcode>name</target_attcode>
 				</field>
+				<field id="desc" xsi:type="AttributeString">
+					<sql>desc</sql>
+					<default_value/>
+					<is_null_allowed>true</is_null_allowed>
+				</field>
 				<field id="functional_cis_list" xsi:type="AttributeLinkedSet">
 					<linked_class>FunctionalCI</linked_class>
 					<ext_key_to_me>usage_id</ext_key_to_me>
@@ -64,6 +69,9 @@
 						<item id="name">
 							<rank>20</rank>
 						</item>
+						<item id="desc">
+							<rank>30</rank>
+						</item>
 						<item id="functional_cis_list">
 							<rank>99</rank>
 						</item>
@@ -76,6 +84,9 @@
 						</item>
 						<item id="name">
 							<rank>20</rank>
+						</item>
+						<item id="desc">
+							<rank>30</rank>
 						</item>
 					</items>
 				</list>
