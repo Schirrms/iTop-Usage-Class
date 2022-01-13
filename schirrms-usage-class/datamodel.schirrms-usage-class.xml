@@ -239,6 +239,28 @@
 				</details>
 			</presentation>
 		</class>
+		<class id="BusinessProcess" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="usage_id" _delta="define">
+							<rank>12</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+		<class id="ApplicationSolution" _delta="must_exist">
+			<presentation>
+				<details>
+					<items>
+						<item id="usage_id" _delta="define">
+							<rank>12</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
 	</classes>
 	<menus>
 		<menu id="ConfigManagementOverview" xsi:type="DashboardMenuNode" _delta="must_exist">
